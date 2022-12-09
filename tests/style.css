@@ -1,0 +1,32 @@
+.main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+
+.first {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 200px;
+    width: 800px;
+    column-gap: 100px;
+}
+
+.second {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 200px;
+    width: 500px;
+    column-gap: 30px;
+
+}
+
+.third {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 200px;
+    width: 500px;
+    column-gap: 30px;
+}
