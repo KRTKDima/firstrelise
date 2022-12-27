@@ -1,115 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="logo">
-        <span class="logofirstpart">Web</span><span class="logosecondpart">Studio
+    <header class="bordered">
+        <div class="container" >
+            <div class="page-header">
+                <a href="index.html" class="logo"><span class="first-partlogo">Web</span><span class="second-partlogo">Studio</span></a>
+                <nav class="site-nav">
+                    <ul class="nav-item">
+                    <li class="item"><a href="studio.html" class="link-nav">Студія</a></li>
+                    <li class="item"><a href="portfolio.html" class="link-nav">Портфоліо</a></li>
+                    <li class="item"><a href="contacts.html" class="link-nav">Контакти</a></li>    
+                    </ul>             
+                </nav>
+                <ul class="header-contacts">
+                    <li class="item"><a href="mailto:dmitriy.krutko29@gmail.com" class="nav-contacts">dmitriy.krutko29@gmail.com</a></li>
+                    <li class="item"><a href="tel:+380504185567" class="nav-contacts">+38-050-418-55-67</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="nav">
-        <nav>
-        <a href="index.html" class="studio">Студія</a>
-        <a href="portfolio.html" class="portfolio">Портфоліо</a>
-        <a href="Контакти">Контакти</a>
-        </nav>
-        </div>
-        <div class="contacts-header">
-        <a href="mailto:dmitriy.krutko29@gmail.com" class="mail">dmitriy.krutko29@gmail.com</a> 
-        <a href="tel:+380504185567" class="phone">+38-050-418-55-67</a> 
-        </div>
+     
     </header>
     <main>
-        <div class="buttonsgalery">
-            <div id="padright"><button type="button" id="buttongalery1">Усі</button></div>
-            <div id="padright"><button type="button" id="buttongalery">Веб-сайти</button></div>
-            <div id="padright"><button type="button" id="buttongalery">Додатки</button></div>
-            <div id="padright"><button type="button" id="buttongalery">Дизайн</button></div>
-            <div id="padright"><button type="button" id="buttongalery">Маркетинг</button></div>
-        </div>
-        <section class="container-galery">
-            <figure class="galery-figure">
-                <img src="./images/img.png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Технокряк</p>
-                <span id="aboutgalery">Веб-сайт</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(1).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Постер New Orlean vs Golden Star</p>
-                <span id="aboutgalery">Дизайн</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(2).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Ресторан Seafood</p>
-                <span id="aboutgalery">Додаток</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(3).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Проєкт Prime</p>
-                <span id="aboutgalery">Маркетинг</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(4).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Проєкт Boxes</p>
-                <span id="aboutgalery">Додаток</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(5).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Inspiration has no Borders</p>
-                <span id="aboutgalery">Веб-сайт</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(6).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Видання Limited Edition</p>
-                <span id="aboutgalery">Дизайн</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(7).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Проєкт LAB</p>
-                <span id="aboutgalery">Маркетинг</span>
-                </div>
-            </figure>
-            <figure class="galery-figure">
-                <img src="./images/img(8).png" width="370px" height="294px">
-                <div class="imageinfo">
-                <p>Growing Business</p>
-                <span id="aboutgalery">Додаток</span>
-                </div>
-            </figure>
-        </section> 
+        <section class="container">
+        <ul class="filters">
+            <li class="item"><a href="" class="btn-filters">Усі</a></li>
+            <li class="item"><a href="" class="btn-filters">Веб-сайти</a></li>
+            <li class="item"><a href="" class="btn-filters">Додатки</a></li>
+            <li class="item"><a href="" class="btn-filters">Дизайн</a></li>
+            <li class="item"><a href="" class="btn-filters">Маркетинг</a></li>
+        </ul>
+        </section>
+        <section class="container">
+            <ul class="carts">
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img.png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Технокряк</h3>
+                            <p class="about">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(1).png" alt="" width="370px" height="294px"></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Постер New Orlean vs Golden Star</h3>
+                            <p class="about">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(2).png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Ресторан Seafood</h3>
+                            <p class="about">Додаток</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(3).png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Проєкт Prime</h3>
+                            <p class="about">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(4).png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Проєкт Boxes</h3>
+                            <p class="about">Додаток</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(5).png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Inspiration has no Borders</h3>
+                            <p class="about">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(6).png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Видання Limited Edition</h3>
+                            <p class="about">Дизайн</p>
+                        </div>
+                    </a>
+                </li>                
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(7).png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Проєкт LAB</h3>
+                            <p class="about">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>                
+                <li class="item">
+                    <a href="" class="cart-link">
+                        <img src="./images/img(8).png" width="370px" height="294px" alt=""></img>
+                        <div class="cart-text">
+                            <h3 class="titlecart">Growing Business</h3>
+                            <p class="about">Додаток</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </main>
-    <footer class="footer">
-        <div class="logofooter">
-        <span class="logofirstpartfooter">Web</span><span class="logosecondpartfooter">Studio
-        </div>
-        <div>
+    <footer>
+        <span>Web</span><span>Studio</span>
         <address>
-            <div class="adress">
-                м. Київ, пр-т Лесі Українки, 26
-            </div>
-            <p class="footer-adress-email">info@devstudio.com</p>  
-            <p class="footer-adress-phone">+38 096 111 11 11</P>
+            <p>м. Київ, пр-т Лесі Українки, 26</p>
+            <p>info@devstudio.com</p>
+            <p>+38 096 111 11 11</P>
         </address>
-        </div>
+        <section>
+            <h4>Приєднуйтесь</h4>
+            <ul>
+                <li>
+                    <svg></svg>
+                </li>
+                <li>
+                    <svg></svg>
+                </li>
+                <li>
+                    <svg></svg>
+                </li>
+                <li>
+                    <svg></svg>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h4>Підпишіться на розсилку</h4>
+            <div>
+                <form action=""></form>
+            </div>
+        </section>
     </footer>
 </body>
+
 </html>
